@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+@import "bootstrap/bootstrap";
+@import "spinner";
+@import "utils";
+@import "rtl";
+@import "responsive";
+@import "animate";
+
+@media print {
+    .breadcrumb {
+        display: none !important;
+    }
+}
+.BodyPrincipal {
+    background: #673AB7;
+    background: linear-gradient(to top, rgb(178, 69, 146), rgb(241, 95, 121));
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.notifyjs-happyblue-base {
+    white-space: nowrap;
+    background-color: lightblue;
+    padding: 5px;
+}
+.notifyjs-happyblue-superblue {
+    color: white;
+    background-color: blue;
+}
+[data-notify="progressbar"] {
+    margin-bottom: 0px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 5px;
+}
+.worldButtom {
+    background-color: #c20973;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    transition: color 0.3s linear;
+}
+.worldButtom:hover {
+    background-color: #45484d;
+    color: black;
+    font-weight: bold;
+}

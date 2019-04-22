@@ -1,0 +1,7 @@
+Deber ir a la direccion de las opciones para webpack posiblemente en esta ruta o simila
+
+--> /node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/webpack-configs/browser.js
+
+y hay cambias "node: false" , por "node: {crypto: true, stream: true, fs: 'empty', tls: 'empty', net: 'empty'}," 
+y eso deberia bastar, si el archivo no se encuentra en esa direccion, pues te vas a alguna similar
+o revisas en los repositorios de Angular la ultima version donde estaba ese archivo y adonde lo movieron

@@ -1,0 +1,76 @@
+<!--<div id="particles-js">
+    <div class="login-page" [@routerTransition]>
+        <div class="row justify-content-md-center">
+            <div class="col-md-5 col-lg-4 terminador-login" >
+                <img  src="assets/images/logo.png" width="150px" />
+                <h1>Sistema Administrativo Digital</h1>
+                <form role="form">
+                    <div class="form-content">
+                        <div class="form-group">
+                            <input type="text" class="form-control input-underline input-lg" id="" placeholder="Full Name">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" class="form-control input-underline input-lg" id="" placeholder="Email">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="password" class="form-control input-underline input-lg" id="" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control input-underline input-lg" id="" placeholder="Repeat Password">
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-around gupoBottom">
+                        <button type="submit" class="btn rounded-btn"  [routerLink]="['/dashboard']" > Register </button>
+                        <a class="btn rounded-btn" [routerLink]="['/login']">Log in </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>-->
+<div class="main-w3layouts2 wrapper2 login-page">
+    <div class="contenerdorVertical">
+        <h1>World<span>ON</span></h1>
+        <h2>Que Comience el juego!</h2>
+        <div class="main-agileinfo" [@routerTransition]>
+            <div class="agileits-top">
+                <form  role="form" #formulario1="ngForm" (ngSubmit)="onSubmit()">
+                    <input class="text" type="text" [(ngModel)]="ParametrosRegistro.Nombre" name="Nombre" placeholder="Nombre" required="">
+                    <input class="text" type="text" [(ngModel)]="ParametrosRegistro.Apellido" name="Apellido" placeholder="Apellido" required="">
+                    <input class="text" type="text" [(ngModel)]="ParametrosRegistro.Alias" name="Alias" placeholder="Alias (Opcional)" required="">
+                    <input class="text email" [(ngModel)]="ParametrosRegistro.email" type="email" name="email" placeholder="Email" required="">
+                    <input class="text" type="password" [(ngModel)]="ParametrosRegistro.pass" name="pass" placeholder="Password" required="">
+                    <input class="text w3lpass" type="password" [(ngModel)]="ParametrosRegistro.pass2" name="pass2" placeholder="Confirmar Password" required="">
+                    <div class="wthree-text">
+                        <label class="anim">
+                            <input type="checkbox" [(ngModel)]="ParametrosRegistro.Terminos" name="Terminos" class="checkbox" required="">
+                            <span style="margin-left: 5px;">Acepto los terminos y condiciones</span>
+                        </label>
+                        <div class="clear"> </div>
+                    </div>
+                    <input type="submit" value="REGISTRAR">
+                </form>
+                <p>Ya posees una cuenta? <a [routerLink]="['/login']"> <strong>Haz Login Ya!</strong></a></p>
+            </div>
+        </div>
+        <!-- copyright -->
+        <div class="w3copyright-agile">
+            <p>© 2018 WorldON. All rights reserved | Design by <a href="http://creacionesjesebrito.com.ve/" target="_blank">Jese Brito For Epodo Creative Studio</a></p>
+        </div>
+        <!-- //copyright -->
+        <ul class="w3lsg-bubbles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,75 @@
+@import "../../login/login.component";
+.main-agileinfo {
+    width: 80%;
+}
+@media(max-width:1366px){
+    .main-agileinfo {
+        width: 70%;
+    }
+}
+@media(max-width:1280px){
+    .main-agileinfo {
+        width: 70%;
+    }
+}
+@media(max-width:1080px){
+    .main-agileinfo {
+        width: 70%;
+    }
+}
+@media(max-width:1024px){
+    .main-agileinfo {
+        width: 80%;
+    }
+}
+@media(max-width:991px){
+    .main-agileinfo {
+        width: 80%;
+    }
+}
+@media(max-width:900px){
+    .main-agileinfo {
+        width: 80%;
+    }
+}
+@media(max-width:736px){
+    .main-agileinfo {
+        width: 80%;
+    }
+}
+@media(max-width:667px){
+    .main-agileinfo {
+        width: 80%;
+    }
+}
+@media(max-width:568px){
+    .main-agileinfo {
+        width: 80%;
+    }
+}
+p.interno {
+    font-size: 1rem;
+    color: black;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 13px;
+    text-align: justify;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+p.interno2 {
+    font-size: 1rem;
+    color: black;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 13px;
+    text-indent: 10%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+p.interno2 > span {
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bold;
+}
+
